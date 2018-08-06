@@ -1,5 +1,4 @@
 require 'rack'
-require 'pry'
 # PersonalSite
 class PersonalSite
   def self.call(env)
