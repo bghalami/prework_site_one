@@ -6,6 +6,7 @@ class PersonalSite
     when '/' then index
     when '/about' then about
     when '/main.css' then css
+    when '/blogs' then blogs
     else
       error
     end
